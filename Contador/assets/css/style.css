@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(6, 86, 156);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center ;
+}
+#ContentWrap{
+    width: 30%;
+    background-color: rgb(76, 4, 158);
+    margin: auto;
+    height: 300px;
+    margin-top: 15%;
+    box-shadow: rgba(0, 0, 0, 0.288) 2px 5px 2px 2px;
+}
+#counter{
+    padding-top: 5%;
+}
+button{
+    width: 100px;
+    height: 100px;
+}
+span{
+    font-size: 25px;
+}
+button, span {
+    margin-left: 5%;
+
+}
