@@ -1,5 +1,5 @@
-const BASE_URL = "https://thatcopy.pw/catapi/rest/";
-btn = document.getElementById("botao");
+const BASE_URL = "./api.json";
+const btn = document.getElementById("botao");
 
 const getCats = async () => {
     try{
@@ -22,5 +22,5 @@ LoadCat.src = await getCats();
 
 }
 
-btn.addEventListener('click', loadImg());
-loadImg();
+btn.addEventListener('click', loadImg);
+//loadImg();
